@@ -3,7 +3,7 @@ from datetime import datetime
 from dateutil.relativedelta import relativedelta
 
 now = datetime.now()
-ref_time = now - relativedelta(seconds = 10)
+ref_time = now - relativedelta(months = 3)
 print(now)
 #print(ref_time)
 
